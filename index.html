@@ -12,7 +12,7 @@
     <p>This is a simple cafe website.</p>
     <a href="#about-us">About Us</a>
     <a href="#View Menu">View Menu</a>
-    <a href="contact.html">Contact Us</a>
+    <a href="#Contact-us">Contact Us</a>
 </header>
 <main>
     <h2 id="about-us">About Us</h2>
@@ -59,6 +59,35 @@
         <li>Delicious pastries</li>
         <li>Cozy atmosphere</li>
     </list>
+    <form action="contact.html" method="get" id="Contact-us">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+        <label for="subscribe">Subscribe to our newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        <label for="contact-method">Preferred contact method:</label>
+        <select id="contact-method" name="contact-method">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+        </select>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="contact-time">Preferred contact time:</label>
+        <input type="time" id="contact-time" name="contact-time"><br><br>
+        <label for="contact-date">Preferred contact date:</label>
+        <input type="date" id="contact-date" name="contact-date"><br><br>
+        <label for="contact-reason">Reason for contact:</label>
+        <textarea id="contact-reason" name="contact-reason" rows="4" cols="50"></textarea><br><br>
+    </form>
+    <validation>
+        <h3>Form Validation</h3>
+        <p>Please fill out the form above and submit it. The form will be validated to ensure all required fields are completed.</p>
+    </validation>
 </main>
 </body>
 </html>
