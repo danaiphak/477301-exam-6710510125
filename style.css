@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
 }
-header {
+#header {
     padding: 5px;
     margin: 5px;
     background-color: #F5DEB3;
