@@ -1,3 +1,4 @@
+/* 477-301 Exam 1 - Danaiphak Maneephan 6710510125 */
 * {
     box-sizing: border-box;
 }
@@ -21,4 +22,39 @@ main {
     background-color: #F5DEB3;
     color: black;
     border: 1px solid black;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 1px;
+    border-color: black;
+    text-align: center;
+}
+thead {
+    background-color: #D2B48C;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+.footer {
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
 }
